@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+  <PropertyGroup>
+    <TargetFrameworks>net471;netcoreapp2.2</TargetFrameworks>
+    <Description>Extended Command line configuration provider implementation for Microsoft.Extensions.Configuration, supporting non-aliased single dash switches in addition to all the CommandLineConfigurationProvider features.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.0.1" />
+  </ItemGroup>
+
+  <Import Project="$(RepoRoot)common\packaging.props" />
+</Project>
