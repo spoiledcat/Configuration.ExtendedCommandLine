@@ -6,6 +6,6 @@
       "enabled": true
     }
   },
-  "pathFilters": ["./", "../Directory.Build.props", "/Directory.build.props", "/icon.png", ":/common"],
+  "pathFilters": ["./", "../Directory.Build.props", "/Directory.build.props", "/icon.png", ":/common", "/version.json"],
   "inherit": true
 }
